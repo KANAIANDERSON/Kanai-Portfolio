@@ -1,0 +1,64 @@
+body {
+  margin: 0 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.above-line {
+  margin: 0;
+  background-color: red;
+  padding-top: 2px;
+}
+
+.Header-Container {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.left-section {
+  padding-left: 5px;
+}
+.header-button {
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-color: grey;
+  border-width: 0.1px;
+  padding: 7px 10px;
+  margin-bottom: 1px;
+}
+
+.header-text {
+  font-size: 18px;
+
+  padding: 5px;
+}
+
+.button-sign {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home-header-icon {
+  height: 24px;
+}
+
+.options-header-icon {
+  height: 16px;
+  transform: rotate(90deg);
+}
+
+.secondary-header {
+  padding: 20px 10px;
+  border-bottom: 0.5px;
+  border-style: solid;
+  background-color: #f8f8f8;
+}
+
+.Second-header-text {
+  font-size: 16px;
+  font-weight: bold;
+}
